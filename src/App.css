@@ -1,0 +1,35 @@
+.menu{
+    display: flex;
+}
+.menu a{
+    color: #569601;
+}
+.nav-link{
+    margin-left:0px;
+    display: block;
+    padding: .5rem 0.5rem;
+}
+.stt-cart {
+    font-size: 10px; 
+      width: 15px;
+      height: 15px;
+      background-color: #569601;
+       text-align: center;
+      color: white;
+       border-radius: 15px;
+     }
+.numberCartPar{
+    position: relative;
+}
+.numberCartChil{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    color:red;
+    z-index: 999;
+    top:10px;
+    left: 45px;
+    /* background-color: gray; */
+
+}
+    
